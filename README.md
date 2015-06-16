@@ -3,4 +3,10 @@ Testing ClojureScript CommonJS support
 
 Uses QuickStart
 
-`rlwrap java -cp cljs.jar:src clojure.main node_repl.clj`
+1. Build `cljs.jar` and copy here
+2. `rlwrap java -cp cljs.jar:src clojure.main node_repl.clj`
+3. Load the `foo.bar` namespace
+
+```clojure
+(require 'foo.bar)
+```
